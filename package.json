@@ -1,15 +1,17 @@
 {
-  "name": "remote-control-bot",
+  "name": "telegram-rat-server",
   "version": "1.0.0",
-  "description": "Remote control bot with Telegram and Android Rat",
+  "description": "A Node.js server for Telegram bot controlling a remote access tool",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.17.1",
-    "socket.io": "^4.4.0",
-    "telegraf": "^4.7.0",
-    "uuid": "^8.3.2"
-  }
+    "node-telegram-bot-api": "^0.54.0",
+    "node-fetch": "^2.6.1",
+    "crypto": "^1.0.1"
+  },
+  "author": "",
+  "license": "ISC"
 }

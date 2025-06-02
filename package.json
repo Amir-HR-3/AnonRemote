@@ -1,17 +1,20 @@
 {
-  "name": "telegram-rat-server",
+  "name": "rat-telegram-bot",
   "version": "1.0.0",
-  "description": "A Node.js server for Telegram bot controlling a remote access tool",
+  "description": "A Node.js server for RAT with Telegram bot integration",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
+  "author": "Your Name",
+  "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1",
-    "node-telegram-bot-api": "^0.54.0",
-    "node-fetch": "^2.6.1",
-    "crypto": "^1.0.1"
+    "express": "^4.21.0",
+    "socket.io": "^4.8.0",
+    "node-telegram-bot-api": "^0.66.0"
   },
-  "author": "",
-  "license": "ISC"
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
 }
